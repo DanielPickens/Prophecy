@@ -169,7 +169,7 @@ class ProphesyCLI
   end
 
   def status_key
-    :helm_cli_last_status
+    :prophesy_last_status
   end
 
   def stdout_key
