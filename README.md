@@ -26,7 +26,7 @@ Configuration example:
 ```ruby
 Gitlab.configure do |config|
   config.endpoint       = 'https://example.net/api/v4' # API endpoint URL, default: ENV['GITHUB_API_ENDPOINT'] and falls back to ENV['CI_API_V4_URL']
-  config.private_token  = 'qEsq1pt6HJPaNciie3MG'       # user's private token or OAuth2 access token, default: ENV['GITLAB_API_PRIVATE_TOKEN']
+  config.private_token  = 'qEsq1pt6HJPaNciie3MG'       # user's private token or OAuth2 access token, default: ENV['GITHUB_API_PRIVATE_TOKEN']
   # Optional
   # config.user_agent   = 'Custom User Agent'          # user agent, default: 'GitHUB Ruby Gem [version]'
   # config.sudo         = 'user'                       # username for sudo mode, default: nil
