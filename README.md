@@ -117,13 +117,13 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/DanelP
 
 ## Todo
 
-Add open telemetry auto instrumentation to the gem
+- Add open telemetry auto instrumentation to the gem
 
-Add a gemspec to the gem.
+- Add a gemspec to the gem.
 
-Set up workflows.
+- Set up ci/cd workflows
 
-Add dependencies of the local gem to a rails plugin/engine in a gemfile.
+- Add dependencies of the local gem to a rails plugin/engine in a gemfile.
 
 ## License
 
