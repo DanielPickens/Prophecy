@@ -23,7 +23,7 @@ Or install it yourself as:
 Configuration example:
 
 ```ruby
-Gitlab.configure do |config|
+Github.configure do |config|
   config.endpoint       = 'https://example.net/api/v4' # API endpoint URL, default: ENV['GITHUB_API_ENDPOINT'] and falls back to ENV['CI_API_V4_URL']
   config.private_token  = 'qEsq1pt6HJPaNciie3MG'       # user's private token or OAuth2 access token, default: ENV['GITHUB_API_PRIVATE_TOKEN']
   # Optional
