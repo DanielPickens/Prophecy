@@ -1,8 +1,8 @@
-# Prophesy::CLI a gem wrapper around the Helm CLI 
+# Prophecy
 
-Welcome to Prophesy, your new gem wrapper for the Helm CLI, making it easier to visualize Helm Charts! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/prophesy/cli`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to Prophecy, your new gem wrapper for the Helm CLI, making it easier to visualize Helm Charts! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/prophecy/cli`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-## Status
+
 
 
 ## Installation
@@ -10,7 +10,7 @@ Welcome to Prophesy, your new gem wrapper for the Helm CLI, making it easier to 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'prophesy'
+gem 'prophecy'
 ```
 
 And then execute:
@@ -19,7 +19,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install prophesy
+    $ gem install prophecy
 
 ## Usage
 
@@ -28,9 +28,9 @@ Configuration example:
 ```ruby
 Gitlab.configure do |config|
   config.endpoint       = 'https://example.net/api/v4' # API endpoint URL, default: ENV['GITHUB_API_ENDPOINT'] and falls back to ENV['CI_API_V4_URL']
-  config.private_token  = 'qEsq1pt6HJPaNciie3MG'       # user's private token or OAuth2 access token, default: ENV['GITLAB_API_PRIVATE_TOKEN']
+  config.private_token  = 'qEsq1pt6HJPaNciie3MG'       # user's private token or OAuth2 access token, default: ENV['GITHUB_API_PRIVATE_TOKEN']
   # Optional
-  # config.user_agent   = 'Custom User Agent'          # user agent, default: 'GitHUB Ruby Gem [version]'
+  # config.user_agent   = 'Custom User Agent'          # user agent, default: 'GitHub Ruby Gem [version]'
   # config.sudo         = 'user'                       # username for sudo mode, default: nil
 end
 ```
@@ -115,7 +115,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/DanelPickens/prophesy.git
+Bug reports and pull requests are welcome on GitHub at https://github.com/DanelPickens/prophecy.git
 
 ## Todo
 
@@ -123,7 +123,6 @@ Add open telemetry auto instrumentation to the gem
 
 Add a gemspec to the gem.
 
-Set up workflows.
 
 Add dependencies of the local gem to a rails plugin/engine in a gemfile.
 
