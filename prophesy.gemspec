@@ -1,12 +1,12 @@
 $:.unshift File.join(File.dirname(__FILE__), 'src')
-require 'prophesy/version'
+require 'prophecy/version'
 
 Gem::Specification.new do |s|
-  s.name     = 'prophesy'
-  s.version  = ::ProphesyCLI::VERSION
+  s.name     = 'prophecy'
+  s.version  = ::ProphecyCLI::VERSION
   s.authors  = ['Daniel Pickens']
   s.email    = ['daniel.pickens@gmail.com']
-  s.homepage = 'http://github.com/danielpickens/prophesy'
+  s.homepage = 'http://github.com/danielpickens/prophecy'
   s.license  = 'MIT'
 
   s.description = s.summary = ' A Gem wrapper for Helm Chart visualization abstraction'
