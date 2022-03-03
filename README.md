@@ -118,10 +118,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/DanelP
 
 - Add open telemetry auto instrumentation to the gem
 
-<<<<<<< HEAD
-=======
 - Set up ci/cd workflows
->>>>>>> ff628c528f2991582ecb9dbd5ad991df96207083
 
 - Add dependencies of the local gem to a rails plugin/engine in a gemfile.
 
