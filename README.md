@@ -1,6 +1,6 @@
-# Prophesy
+# Prophecy
 
-Prophesy is a gem wrapper for the Helm CLI, making it easier to visualize Helm Charts! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `scr/prophesy/cli`. To experiment with that code, run `bin/console` for an interactive prompt.
+Prophecy is a gem wrapper for the Helm CLI, making it easier to visualize Helm Charts! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `scr/prophecy/cli`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 
 ## Installation
@@ -8,7 +8,7 @@ Prophesy is a gem wrapper for the Helm CLI, making it easier to visualize Helm C
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'prophesy'
+gem 'prophecy'
 ```
 
 And then execute:
@@ -17,7 +17,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install prophesy
+    $ gem install prophecy
 
 ## Usage
 
@@ -113,7 +113,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/DanelPickens/prophesy.git
+Bug reports and pull requests are welcome on GitHub at https://github.com/DanelPickens/prophecy.git
 
 ## Todo
 
