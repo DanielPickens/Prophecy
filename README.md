@@ -116,7 +116,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/DanelP
 
 ## Todo
 
-- Add open telemetry auto instrumentation to the gem
+- ~~Add open telemetry auto instrumentation to the gem~~
 
 - ~~Set up ci/cd workflows~~
 
