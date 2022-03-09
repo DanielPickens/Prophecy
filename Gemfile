@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'gem2', :path => '../gem2'
+
+
 gemspec
 
 
