@@ -15,8 +15,8 @@ OpenTelemetry::SDK.configure do |c|
     OpenTelemetry::SemanticConventions::Resource::SERVICE_NAME => 'rails',
     OpenTelemetry::SemanticConventions::Resource::SERVICE_INSTANCE_ID => Socket.gethostname,
     OpenTelemetry::SemanticConventions::Resource::SERVICE_VERSION => "0.0.0",
-    "scout.id" => "daniel_auth_id",
-    "scout.key" => "daniel_auth_key",
+    "daniel.id" => "daniel_auth_id",
+    "daniel.key" => "daniel_auth_key",
   })
 
   ##### Instruments
