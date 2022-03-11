@@ -5,7 +5,6 @@ gemspec
 
 platforms :ruby do
   gem "ruby-debug"
-  gem "sqlite3"
 end
 
 
