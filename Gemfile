@@ -1,10 +1,12 @@
-source 'https://rubygems.org' gem 'gem2', :path => '../gem2'
+source 'https://rubygems.org' 
 
+gem 'gem2', :path => '../gem2'
+spec.add_runtime_dependency "gem2"
+end
 
 gemspec
 
-spec.add_runtime_dependency "gem2"
-end
+
 
 gem 'helm-rb'
 
