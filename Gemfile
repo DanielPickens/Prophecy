@@ -1,6 +1,6 @@
-source 'https://rubygems.org' do
+source 'https://rubygems.org' 
 
-
+gemspec
 
 
 platforms :ruby do
@@ -8,15 +8,8 @@ platforms :ruby do
   gem "sqlite3"
 end
 
-group :development, :optional => true do
-  gem "devgemgroup"
-  gem "tester"
-end
 
  
-gemspec
-
-
 
 gem 'helm-rb'
 
