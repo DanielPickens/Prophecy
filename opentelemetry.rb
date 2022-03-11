@@ -19,7 +19,7 @@ OpenTelemetry::SDK.configure do |c|
     "daniel.key" => "daniel_auth_key",
   })
 
-  ##### Instruments
+  
   c.use 'OpenTelemetry::Instrumentation::Rack'
   c.use 'OpenTelemetry::Instrumentation::ActionPack'
   c.use 'OpenTelemetry::Instrumentation::ActionView'
