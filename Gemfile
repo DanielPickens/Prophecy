@@ -1,5 +1,5 @@
-source 'https://rubygems.org' 
-source "https:/rubygems.org" do
+source 'https://rubygems.org' do
+
   gem "prophecy_internal_gem"
   gem "phrophecy_release_gem"
 end
