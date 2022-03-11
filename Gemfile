@@ -1,10 +1,7 @@
 source 'https://rubygems.org' do
 
 
-git "https://github.com/rails/rails.git" do
-  gem "activesupport"
-  gem "actionpack"
-end
+
 
 platforms :ruby do
   gem "ruby-debug"
