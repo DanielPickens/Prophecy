@@ -1,8 +1,5 @@
 source 'https://rubygems.org' do
 
-  gem "prophecy_internal_gem"
-  gem "phrophecy_release_gem"
-end
 
 git "https://github.com/rails/rails.git" do
   gem "activesupport"
