@@ -1,14 +1,7 @@
-source 'https://rubygems.org' 
+source 'https://rubygems.org'
 
 gemspec
 
-
-platforms :ruby do
-  gem "ruby-debug"
-end
-
-
- 
 
 gem 'helm-rb'
 
@@ -19,4 +12,3 @@ end
 group :test do
   gem 'rspec'
 end
-
