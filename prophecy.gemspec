@@ -1,4 +1,4 @@
-$:.unshift File.join(File.dirname(__FILE__), 'src')
+$:.unshift File.join(File.dirname(__FILE__), 'lib')
 require 'prophecy/version'
 
 Gem::Specification.new do |s|
@@ -13,6 +13,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'helm-rb', '~> 0.1'
 
-  s.require_path = 'src'
-  s.files = Dir['{src,spec,vendor}/**/*', 'Gemfile', 'LICENSE', 'CHANGELOG.md', 'README.md', 'Rakefile', 'helm-cli.gemspec']
+  s.require_path = 'lib'
+  s.files = Dir['{lib,spec,vendor}/**/*', 'Gemfile', 'LICENSE', 'CHANGELOG.md', 'README.md', 'Rakefile', 'helm-cli.gemspec']
 end
