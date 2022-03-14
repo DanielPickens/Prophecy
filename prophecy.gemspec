@@ -13,6 +13,15 @@ Gem::Specification.new do |s|
   s.description = s.summary = ' A Gem wrapper for Helm Chart visualization abstraction'
 
   s.add_dependency 'helm-rb', '~> 0.1'
+  s.add_development_dependency 'rake', '~> 10.0'
+  s.add_development_dependency 'minitest'
+  s.add_development_dependency 'webmock', '~> 1.24.2'
+  s.add_development_dependency 'vcr'
+  s.add_development_dependency 'rubocop', '= 0.30.0'
+  s.add_dependency 'rest-client'
+  s.add_dependency 'activesupport'
+  s.add_dependency 'recursive-open-struct', '= 1.0.0'
+  s.add_dependency 'http', '= 0.9.8'
 
   s.require_path = 'lib'
   s.files = Dir['{lib,spec,vendor}/**/*', 'Gemfile', 'LICENSE', 'CHANGELOG.md', 'README.md', 'Rakefile', 'helm-cli.gemspec']
