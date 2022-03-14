@@ -1,3 +1,4 @@
+lib = File.expand_path("../lib", __FILE__)
 $:.unshift File.join(File.dirname(__FILE__), 'lib')
 require 'prophecy/version'
 
