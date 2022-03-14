@@ -180,3 +180,41 @@ class ProphecyCLI
     :prophecy_cli_stderr
   end
 end
+
+
+class << self
+  attr_writer :configuration
+
+  def configuration
+    @configuration ||= Configuration.new
+  end
+
+  def configure
+    yield(configuration)
+  end
+
+  def reset!
+    @configuration = nil
+  end
+end
+
+module ClassMethods
+  def clean(opts = {})
+    Commands::Clean.new.execute(opts)
+  end
+end
+
+extend ClassMethods
+
+def self.included(other)
+  other.extend(ClassMethods)
+end
+
+class Configuration
+  attr_accessor :binary
+
+  def initialized
+    @binary = 'helm'
+  end
+end
+end
