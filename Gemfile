@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gemspec
 
 
-gem 'helm-rb'
+gem 'prophecy'
 gem 'opentelemetry-sdk'
 gem 'opentelemetry-exporter-otlp'
 gem 'opentelemetry-instrumentation-all'
