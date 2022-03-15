@@ -4,7 +4,7 @@ gemspec
 
 
 
-gem 'helm.rb'
+gem 'helm-rb'
 gem 'opentelemetry-sdk'
 gem 'opentelemetry-exporter-otlp'
 gem 'opentelemetry-instrumentation-all'
