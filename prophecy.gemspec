@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
 
   s.description = s.summary = ' A Gem wrapper for Chart visualization abstraction in the Helm CLI'
 
-  s.add_dependency 'helm-rb', '~> 0.1'
+  s.add_dependency 'prophecy', '~> 0.1'
   s.add_development_dependency 'rake', '~> 10.0'
   s.add_development_dependency 'minitest'
   s.add_development_dependency 'webmock', '~> 1.24.2'
