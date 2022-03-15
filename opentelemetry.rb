@@ -5,6 +5,7 @@ require 'opentelemetry/instrumentation/all'
 
 otel_exporter = OpenTelemetry::Exporter::OTLP::Exporter.new
 processor = OpenTelemetry::SDK::Trace::Export::BatchSpanProcessor.new(otel_exporter)
+otel_exporter_otlp_trace_endpoint = http://localhost:55681
 
 OpenTelemetry::SDK.configure do |c|
  
