@@ -4,6 +4,7 @@ gemspec
 
 
 gem 'prophecy'
+gem 'helm.rb'
 gem 'opentelemetry-sdk'
 gem 'opentelemetry-exporter-otlp'
 gem 'opentelemetry-instrumentation-all'
