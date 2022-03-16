@@ -19,7 +19,7 @@ class TestOtelEndpoint < MiniTest::Test
 
     stub_request(:post, 'http://localhost:8080/api/v1/namespaces/default/otelendpoint')
       .with(body: req_body)
-      .to_return(body: open_test_file('created_endpoint.json'), status: 201)
+      .to_return(body: open_test_file('created_otel_endpoint.json'), status: 201)
 
     created_ep = client.create_otel_endpoint testing_ep
     assert_equal('Otel Endpoints', created_ep.kind)
