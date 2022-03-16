@@ -1,0 +1,28 @@
+{
+    "kind": "Otel Endpoint",
+    "apiVersion": "v1",
+    "metadata": {
+      "name": "firstendpoint",
+      "namespace": "default",
+      "selfLink": "/api/v1/namespaces/default/endpoints/firstendpoint",
+      "uid": "59d05b48-dadb-11e5-937e-18037327aaeb",
+      "resourceVersion": "393",
+      "creationTimestamp": "2022-03-16T09:45:34Z"
+    },
+    "subsets": [
+      {
+        "addresses": [
+          {
+            "ip": "172.17.0.25"
+          }
+        ],
+        "ports": [
+          {
+            "name": "https",
+            "port": 6443,
+            "protocol": "TCP"
+          }
+        ]
+      }
+    ]
+  }
