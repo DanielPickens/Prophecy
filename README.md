@@ -120,8 +120,9 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/Daniel
 
 - [X] Set up ci/cd workflows
 
-- [ ] Add dependencies of the local gem to a rails plugin/engine in a gemfile.
+- [X] Add dependencies of the local gem to a rails plugin/engine in a gemfile.
 
+- [ ] Create an API Wrapper of External Service in Rails 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
