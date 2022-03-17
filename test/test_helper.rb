@@ -1,4 +1,9 @@
-$LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
-require "prophecy"
-require "prophecy/test"
-require "minitest/autorun"
+require 'minitest/autorun'
+require 'webmock/minitest'
+require 'json'
+require 'prophecy'
+
+
+def open_test_file(name)
+  File.new(File.join(File.dirname(__FILE__), name.split('.').last, name))
+end
