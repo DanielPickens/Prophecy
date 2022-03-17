@@ -1,3 +1,4 @@
+require 'prophecy'
 require 'opentelemetry/sdk'
 require 'opentelemetry/exporter/otlp'
 require 'opentelemetry/instrumentation/all'
